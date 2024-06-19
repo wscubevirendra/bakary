@@ -1,0 +1,28 @@
+@media only  screen and (min-width:992px)  {
+    .top-container{
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width:0px) and (max-width:992px){
+    nav ul{
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        flex-direction: column;
+        color: white;
+        gap: 0px;
+        transition: 0.5s;
+    }
+    nav ul li{
+        padding: 10px 22px 10px 15px;
+    }
+    #bars{
+        display: block;
+        font-size: 30px;
+    }
+}
